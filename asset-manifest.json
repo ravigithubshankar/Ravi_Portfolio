@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ravigithubshankar/Ravi_Portfolio/static/css/main.8ae094f7.css",
+    "main.js": "/ravigithubshankar/Ravi_Portfolio/static/js/main.64644692.js",
+    "index.html": "/ravigithubshankar/Ravi_Portfolio/index.html",
+    "main.8ae094f7.css.map": "/ravigithubshankar/Ravi_Portfolio/static/css/main.8ae094f7.css.map",
+    "main.64644692.js.map": "/ravigithubshankar/Ravi_Portfolio/static/js/main.64644692.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8ae094f7.css",
+    "static/js/main.64644692.js"
+  ]
+}
