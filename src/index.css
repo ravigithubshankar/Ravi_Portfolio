@@ -7,6 +7,41 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.stars {
+  width: 2px;
+  height: 2px;
+  background: white;
+  border-radius: 50%;
+  box-shadow:
+    50px 100px white,
+    150px 200px white,
+    250px 50px white,
+    350px 300px white,
+    450px 150px white,
+    550px 250px white,
+    650px 80px white,
+    750px 220px white,
+    850px 130px white,
+    950px 300px white;
+}
+
+@keyframes starTwinkle {
+  0%, 100% { opacity: 0.8; }
+  50% { opacity: 0.2; }
+}
+
+.animate-starTwinkle {
+  animation: starTwinkle 3s infinite linear;
+}
+
+.animate-starTwinkle.delay-2000 {
+  animation-delay: 2s;
+}
+
+.animate-starTwinkle.delay-4000 {
+  animation-delay: 4s;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
